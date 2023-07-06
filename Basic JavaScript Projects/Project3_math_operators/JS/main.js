@@ -1,24 +1,24 @@
 function addition_Function() {
     var addition = 5 + 5;
-    document.getElementById("Math").innerHTML = "5 + 5 =" + addition;
+    document.getElementById("Add").innerHTML = "5 + 5 =" + addition;
 }
 
 //working with subraction 
 function subtract() {
     var sub = 20 - 5;
-    document.getElementById("Math").innerHTML = " 20 - 5 =" + sub;
+    document.getElementById("Subtract").innerHTML = " 20 - 5 =" + sub;
 }
 
 //working with multiplaction 
 function multiplaction() {
     var multiply = 7 * 8;
-    document.getElementById("Math").innerHTML = " 7 * 8 =" + multiply;
+    document.getElementById("Multiply").innerHTML = " 7 * 8 =" + multiply;
 }
 
 //working with divsion 
-function divsion() {
+function division() {
     var divide = 42 / 2;
-    document.getElementById("Math").innerHTML = " 42 / 2 =" + divide;
+    document.getElementById("divide").innerHTML = " 42 / 2 =" + divide;
 }
 
 //working with subraction, multiplaction, divsion, and addition 
@@ -30,13 +30,13 @@ function mathematics() {
 //Modulus operator
 function operator() {
     var more_math = 22 % 4;
-    document.getElementById("Math").innerHTML = "when you divide 22 by 4 you have a remainder of: " + more_math;
+    document.getElementById("Modulus").innerHTML = "when you divide 22 by 4 you have a remainder of: " + more_math;
 }
 
 //negation operator
 function negation() {
     var V= 5;
-    document.getElementById("Math").innerHTML = - + V;
+    document.getElementById("unary").innerHTML = - + V;
 }
 
 //increment operator
@@ -55,5 +55,5 @@ window.alert(Math.random()*50);
 //Math method
 function round() {
     var more_math = Math.round(20.5);
-    document.getElementById("Math").innerHTML = Math.round(20.5);
+    document.getElementById("nearest").innerHTML = Math.round(20.5);
 }

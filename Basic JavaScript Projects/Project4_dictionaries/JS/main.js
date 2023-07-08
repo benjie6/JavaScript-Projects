@@ -4,7 +4,7 @@ function myDictionary() {
         model: "gtr r34 skyline",
         year: 1999,
     };
-    delete car.model
+    delete car.model // value is now undefined 
     document.getElementById("Dictionary").innerHTML = car.model;
 }
 
